@@ -1,12 +1,3 @@
-## Quick Links
-1. [Introduction](#Introduction)
-2. [About the Dataset](#TripClick-Dataset)
-3. [Get the Data](#Acquisition)
-4. [Experiments](#Experiments)
-5. [Terms and Conditions](#Terms-and-Conditions)
-6. [Legal Information](#Legal-Notices)
-7. [Contact Us](#Contact-Us)
-
 ## Introduction
 ## TripClick Dataset
 ## Acquisition
