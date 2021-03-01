@@ -1,3 +1,18 @@
+## Quick Links
+1. [Introduction](#Introduction)
+2. [About the Dataset](#TripClick-Dataset)
+3. [Get the Data](#Acquisition)
+4. [Experiments](#Experiments)
+5. [Contact Us](Contact-Us)
+
+## Introduction
+## TripClick Dataset
+## Acquisition
+## Experiments
+## Terms and Conditions
+## Legal Notices
+## Contact Us
+
 ## TripClick Data Set
 
 You can use the [editor on GitHub](https://github.com/tripdatabase/TripClick/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
