@@ -46,7 +46,7 @@ We offer the three following resource packages:
 3. TripClick Training Package for Deep Learning Models
 
 One or more of the listed above can be requested for free via an email: [contact person](mailto:contact@person.com?subject=[TripClick]%20Data%20Request).
-In your request email, please, **specify needed data packages and intended use of the data**.
+<br>Please, **specify needed data packages and intended use of the data**.
 
 Below we describe contents of each package in detail.
 #### TripClick Logs Dataset
