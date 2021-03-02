@@ -6,7 +6,7 @@ Available resources:
 * TripClick IR Benchmark
 * TripClick Training Package for Deep Learning Models
 
-Please consult the **Getting the Data** section if you wish to obtain one or more of listed above.
+Please consult the **Getting the Data** section if you wish to obtain one or more of the listed above.
 
 ### Introduction
 ### TripClick Logs Dataset
@@ -40,6 +40,13 @@ Please consult the **Getting the Data** section if you wish to obtain one or mor
 | Number of queries in the test sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,175 |
 
 ### Getting the Data
+We offer the following three resource packages listed below:
+* TripClick Logs Dataset
+* TripClick IR Benchmark
+* TripClick Training Package for Deep Learning Models
+
+One or more of the listed above can be requested for free via an [email to Jon](mailto:Jon@TripDatabase.com?subject=[TripClick Dataset]%20Data%20Request).
+Please, specify ...
 ### Experiments
 ### Terms and Conditions
 ### Legal Notices
