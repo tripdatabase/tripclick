@@ -26,7 +26,7 @@ Below you will find:
 | Number of documents | 1,523,878 |
 | Number of queries <br> (HEAD / TORSO / TAIL) <br> (TOTAL) | 5,879 / 108,314 / 578,506 <br> 692,699 |
 | Average query length | 4.4±2.4 |
-| Average document length: | 259.0±81.7 |
+| Average document length | 259.0±81.7 |
 | Number of RAW relevance information <br> (HEAD / TORSO / TAIL) <br> (TOTAL) | 246,754 / 994,529 / 1,629,543 <br> 2,870,826 |
 | Average RAW relevance information per query <br> (HEAD / TORSO / TAIL) | 41.9 / 9.1 / 2.8 |
 | Number of DCTR relevance information (HEAD) | 263,175 |
