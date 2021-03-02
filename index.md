@@ -68,57 +68,36 @@ Total: **900M**
 
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
-|. |. |. |. |
+| collection.tar.gz | 875M | . | . |
+| qrels.dctr.head.tar.gz | 2M | . | . |
+| qrels.raw.head.tar.gz | 2M | . | . |
+| qrels.raw.tail.tar.gz | 10M | . | . |
+| qrels.raw.torso.tar.gz | 6M | . | . |
+| topics.all.tar.gz | 13M | . | . |
+| topics.head.tar.gz | 1M | . | . |
+| topics.tail.tar.gz | 22M | . | . |
+| topics.torso.tar.gz | 4M | . | . |
+
+Total: **930M**
 
 #### TripClick Training Package for Deep Learning Models
 
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
-|. |. |. |. |
+| run.trip.BM25.head.test.tar.gz | 12M | . | . |
+| run.trip.BM25.tail.test.tar.gz | 12M | . | . |
+| run.trip.BM25.torso.test.tar.gz | 12M | . | . |
+| triples.train.tsv.tar.gz | 28G | . | . |
+| tuples.head.test.top200.tar.gz | 130M | . | . |
+| tuples.head.val.top200.tar.gz | 131M | . | . |
+| tuples.tail.test.top200.tar.gz | 134M | . | . |
+| tuples.tail.val.top200.tar.gz | 134M | . | . |
+| tuples.torso.test.top200.tar.gz | 132M | . | . |
+| tuples.torso.val.top200.tar.gz | 132M | . | . |
+
+Total: **29G**
 
 ### Experiments
 ### Terms and Conditions
 ### Legal Notices
 ### Contact Us
-
-
-
-
-
-
-
-You can use the [editor on GitHub](https://github.com/tripdatabase/TripClick/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tripdatabase/TripClick/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
