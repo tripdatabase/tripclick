@@ -10,6 +10,7 @@ Below you will find:
 ### TripClick Logs Dataset
 
 | Statistics of the TripClick logs dataset |
+|---|---|
 | Number of click log entries | 5,272,064 |
 | Number of sessions | 1,602,648 |
 | Average number of query-document interactions per session | 3.3 |
@@ -20,17 +21,18 @@ Below you will find:
 ### TripClick IR Benchmark
 
 | Statistics of TripClick IR benchmark |
+|---|---|
 | Number of query-document interactions | 4,054,593 |
-| Number of documents1,523,878 |
+| Number of documents | 1,523,878 |
 | Number of queries (all/HEAD/TORSO/TAIL) | 692,699 / 5,879 / 108,314 / 578,506 |
 | Average query length | 4.4±2.4
 | Average document length | 259.0±81.7 |
-| Number ofRAWrelevance information (all/HEAD/TORSO/TAIL) | 2,870,826 / 246,754 / 994,529 / 1,629,543 |
-| AverageRAWrelevance information per query (HEAD/TORSO/TAIL) | 41.9 / 9.1 / 2.8 |
+| Number of RAW relevance information (all/HEAD/TORSO/TAIL) | 2,870,826 / 246,754 / 994,529 / 1,629,543 |
+| Average RAW relevance information per query (HEAD/TORSO/TAIL) | 41.9 / 9.1 / 2.8 |
 | Number ofDCTRrelevance information (HEAD) | 263,175 |
 | AverageDCTRrelevance information per query (HEAD) | 46.2 |
 | Number of queries used in the training set | 685,649 |
-| Number of non-zeroRAWrelevance information used in training set | 1,105,811 |
+| Number of non-zero RAW relevance information used in training set | 1,105,811 |
 | Number of items in the training set | 23,222,038 |
 | Number of queries in the validation sets (HEAD/TORSO/TAIL) | 1,175 / 1,175 / 1,175 |
 | Number of queries in the test sets (HEAD/TORSO/TAIL) | 1,175 / 1,175 / 1,1755 |
