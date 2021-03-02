@@ -24,10 +24,10 @@ Below you will find:
 |---|---:|
 | Number of query-document interactions | 4,054,593 |
 | Number of documents | 1,523,878 |
-| Number of queries (HEAD/TORSO/TAIL) <br> TOTAL | 5,879 / 108,314 / 578,506 <br> 692,699 |
+| Number of queries (HEAD/TORSO/TAIL) <br> (TOTAL) | 5,879 / 108,314 / 578,506 <br> 692,699 |
 | Average query length | 4.4±2.4 |
 | Average document length | 259.0±81.7 |
-| Number of RAW relevance information (all/HEAD/TORSO/TAIL) | 2,870,826 / 246,754 / 994,529 / 1,629,543 |
+| Number of RAW relevance information (HEAD/TORSO/TAIL) <br> (TOTAL) | 246,754 / 994,529 / 1,629,543 <br> 2,870,826 |
 | Average RAW relevance information per query (HEAD/TORSO/TAIL) | 41.9 / 9.1 / 2.8 |
 | Number ofDCTRrelevance information (HEAD) | 263,175 |
 | AverageDCTRrelevance information per query (HEAD) | 46.2 |
