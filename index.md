@@ -45,7 +45,7 @@ We offer the following three resource packages:
 * TripClick IR Benchmark
 * TripClick Training Package for Deep Learning Models
 
-One or more of the listed above can be requested for free via an email.
+One or more of the listed above can be requested for free via an email. [Dr. Kde](mailto:lue@abe.com?subject=[GitHub]%20Source%20Han%20Sans)
 Please, specify ...
 ### Experiments
 ### Terms and Conditions
