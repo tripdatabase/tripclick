@@ -27,12 +27,12 @@ Below you will find:
 | Number of queries <br> (HEAD / TORSO / TAIL) <br> (TOTAL) | 5,879 / 108,314 / 578,506 <br> 692,699 |
 | Average query length | 4.4±2.4 |
 | Average document length | 259.0±81.7 |
-| Number of RAW relevance information <br> (HEAD / TORSO / TAIL) <br> (TOTAL) | 246,754 / 994,529 / 1,629,543 <br> 2,870,826 |
-| Average RAW relevance information per query <br> (HEAD / TORSO / TAIL) | 41.9 / 9.1 / 2.8 |
-| Number of DCTR relevance information (HEAD) | 263,175 |
-| Average DCTR relevance information per query (HEAD) | 46.2 |
+| Number of RAW relevance data points <br> (HEAD / TORSO / TAIL) <br> (TOTAL) | 246,754 / 994,529 / 1,629,543 <br> 2,870,826 |
+| Average RAW relevance data points per query <br> (HEAD / TORSO / TAIL) | 41.9 / 9.1 / 2.8 |
+| Number of DCTR relevance data points (HEAD) | 263,175 |
+| Average DCTR relevance data points per query (HEAD) | 46.2 |
 | Number of queries used in the training set: | 685,649 |
-| Number of non-zero RAW relevance information <br> used in training set | 1,105,811 |
+| Number of non-zero RAW relevance data points <br> used in training set | 1,105,811 |
 | Number of items in the training set | 23,222,038 |
 | Number of queries in the validation sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,175 |
 | Number of queries in the test sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,1755 |
@@ -43,7 +43,11 @@ Below you will find:
 ### Legal Notices
 ### Contact Us
 
-## TripClick Data Set
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/tripdatabase/TripClick/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
