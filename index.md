@@ -8,6 +8,16 @@ Below you will find:
 
 ### Introduction
 ### TripClick Logs Dataset
+
+| Statistics of the TripClick logs dataset|
+|-------|
+| Number of click log entries | 5,272,064 |
+| Number of sessions | 1,602,648 |
+| Average number of query-document interactions per session | 3.3 |
+| Number of unique queries | 1,647,749 |
+| Number of documents (clicked or retrieved) | 2,347,977 |
+
+
 ### TripClick IR Benchmark
 ### Getting the Data
 ### Experiments
