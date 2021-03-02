@@ -35,7 +35,7 @@ Below you will find:
 | Number of non-zero RAW relevance data points <br> used in training set | 1,105,811 |
 | Number of items in the training set | 23,222,038 |
 | Number of queries in the validation sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,175 |
-| Number of queries in the test sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,1755 |
+| Number of queries in the test sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,175 |
 
 ### Getting the Data
 ### Experiments
