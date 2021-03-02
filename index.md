@@ -53,17 +53,16 @@ Below we describe contents of each package in detail.
 | File Name | File Size | Format | Description |
 |-----------|----------:|--------|-------------|
 | allarticles.tar.gz | 235M |
-| 2013.tar.gz | 56M |  |  |
-| 2014.tar.gz | 62M |  |  |
-| 2015.tar.gz | 61M |  |  |
-| 2016.tar.gz | 91M |  |  |
-| 2017.tar.gz | 103M |  |  |
-| 2018.tar.gz | 115M |  |  |
-| 2019.tar.gz | 103M |  |  |
-| 2020.tar.gz | 77M |  |  |
+| 2013.tar.gz | 56M | . | . |
+| 2014.tar.gz | 62M | . | . |
+| 2015.tar.gz | 61M | . | . |
+| 2016.tar.gz | 91M | . | . |
+| 2017.tar.gz | 103M | . | . |
+| 2018.tar.gz | 115M | . | . |
+| 2019.tar.gz | 103M | . | . |
+| 2020.tar.gz | 77M | . | . |
 
-|Total:| 900M |
-|. |. |. |. |
+Total: **900M**
 #### TripClick IR Benchmark
 | File Name | File Size | Format | Description |
 |-----------|----------:|--------|-------------|
