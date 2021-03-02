@@ -1,10 +1,13 @@
-## Introduction
-## TripClick Dataset
-## Acquisition
-## Experiments
-## Terms and Conditions
-## Legal Notices
-## Contact Us
+### Welcome!
+We present a large-scaledomain-specific dataset of click logs, obtained from user interactions of the Trip Database health web search engine. Our clicklog dataset comprises approximately 5.2 million user interactionscollected between 2013 and 2020. We use this dataset to create a standard IR evaluation benchmark **TripClick*** with around 700,000 unique free-text queries and 1.3 million pairs of query-document relevance signals, whose relevance is estimated by two click-through models. As such, the collection is one of the few datasets offering the necessary data richness and scale to train neural IR models with large amount of parameters, and notably the first in the health domain.
+
+### Introduction
+### TripClick Dataset
+### Acquisition
+### Experiments
+### Terms and Conditions
+### Legal Notices
+### Contact Us
 
 ## TripClick Data Set
 
