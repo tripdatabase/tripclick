@@ -40,7 +40,7 @@ Please consult the **Getting the Data** section if you wish to obtain one or mor
 | Number of queries in the test sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,175 |
 
 ### Getting the Data
-We offer the following three resource packages listed below:
+We offer the following three resource packages:
 * TripClick Logs Dataset
 * TripClick IR Benchmark
 * TripClick Training Package for Deep Learning Models
