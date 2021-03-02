@@ -10,7 +10,6 @@ Below you will find:
 ### TripClick Logs Dataset
 
 | Statistics of the TripClick logs dataset|
-
 |-------|-------|
 | Number of click log entries | 5,272,064 |
 | Number of sessions | 1,602,648 |
