@@ -23,7 +23,7 @@ Please consult the **Getting the Data** section if you wish to obtain one or mor
 ### TripClick IR Benchmark
 
 | Statistic of TripClick IR benchmark | Value |
-|---|---:|
+|---|-----:|
 | Number of query-document interactions | 4,054,593 |
 | Number of documents | 1,523,878 |
 | Number of queries <br> (HEAD / TORSO / TAIL) <br> (TOTAL) | 5,879 / 108,314 / 578,506 <br> 692,699 |
@@ -40,13 +40,18 @@ Please consult the **Getting the Data** section if you wish to obtain one or mor
 | Number of queries in the test sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,175 |
 
 ### Getting the Data
-We offer the following three resource packages:
-* TripClick Logs Dataset
-* TripClick IR Benchmark
-* TripClick Training Package for Deep Learning Models
+We offer the three following resource packages:
+1. TripClick Logs Dataset
+2. TripClick IR Benchmark
+3. TripClick Training Package for Deep Learning Models
 
-One or more of the listed above can be requested for free via an email. [Dr. Kde](mailto:lue@abe.com?subject=[GitHub]%20Source%20Han%20Sans)
-Please, specify ...
+One or more of the listed above can be requested for free via an email: [contact person](mailto:contact@person.com?subject=[TripClick]%20Data%20Request).
+In your request email, please, **specify needed data packages and intended use of the data**.
+
+Below we describe contents of each package in detail.
+#### TripClick Logs Dataset
+#### TripClick IR Benchmark
+#### TripClick Training Package for Deep Learning Models
 ### Experiments
 ### Terms and Conditions
 ### Legal Notices
