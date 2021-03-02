@@ -45,7 +45,7 @@ We offer the following three resource packages listed below:
 * TripClick IR Benchmark
 * TripClick Training Package for Deep Learning Models
 
-One or more of the listed above can be requested for free via an [email to Jon](mailto:Jon@TripDatabase.com?subject=[TripClick Dataset]%20Data%20Request).
+One or more of the listed above can be requested for free via an [email to Jon](mailto:Jon@TripDatabase.com?subject=TripClick Dataset%20Data%20Request).
 Please, specify ...
 ### Experiments
 ### Terms and Conditions
