@@ -9,7 +9,7 @@ Below you will find:
 ### Introduction
 ### TripClick Logs Dataset
 
-| Statistic of the TripClick logs dataset | # |
+| Statistic of the TripClick logs dataset | Value |
 |---|---:|
 | Number of click log entries | 5,272,064 |
 | Number of sessions | 1,602,648 |
@@ -20,7 +20,7 @@ Below you will find:
 
 ### TripClick IR Benchmark
 
-| Statistic of TripClick IR benchmark | # |
+| Statistic of TripClick IR benchmark | Value |
 |---|---:|
 | Number of query-document interactions | 4,054,593 |
 | Number of documents | 1,523,878 |
