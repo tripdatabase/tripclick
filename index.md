@@ -50,6 +50,7 @@ One or more of the listed above can be requested for free via an email: [contact
 
 Below we describe contents of each package in detail.
 #### TripClick Logs Dataset
+
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
 | allarticles.tar.gz | 235M |
@@ -64,13 +65,17 @@ Below we describe contents of each package in detail.
 
 Total: **900M**
 #### TripClick IR Benchmark
+
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
 |. |. |. |. |
+
 #### TripClick Training Package for Deep Learning Models
+
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
 |. |. |. |. |
+
 ### Experiments
 ### Terms and Conditions
 ### Legal Notices
