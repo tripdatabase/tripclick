@@ -31,6 +31,7 @@ Below you will find:
 | Average RAW relevance information per query (HEAD/TORSO/TAIL) | 41.9 / 9.1 / 2.8 |
 | Number ofDCTRrelevance information (HEAD) | 263,175 |
 | AverageDCTRrelevance information per query (HEAD) | 46.2 |
+|---|---|
 | Number of queries used in the training set | 685,649 |
 | Number of non-zero RAW relevance information used in training set | 1,105,811 |
 | Number of items in the training set | 23,222,038 |
