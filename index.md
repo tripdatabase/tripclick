@@ -20,11 +20,11 @@ Below you will find:
 
 ### TripClick IR Benchmark
 
-| Statistics of TripClick IR benchmark | # |
+| Statistic of TripClick IR benchmark | # |
 |---|---:|
 | Number of query-document interactions | 4,054,593 |
 | Number of documents | 1,523,878 |
-| Number of queries (all/HEAD/TORSO/TAIL) | 692,699 / 5,879 / 108,314 / 578,506 |
+| Number of queries (HEAD/TORSO/TAIL) <br> TOTAL | 5,879 / 108,314 / 578,506 <br> 692,699 |
 | Average query length | 4.4±2.4 |
 | Average document length | 259.0±81.7 |
 | Number of RAW relevance information (all/HEAD/TORSO/TAIL) | 2,870,826 / 246,754 / 994,529 / 1,629,543 |
