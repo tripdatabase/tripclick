@@ -5,6 +5,7 @@ Available resources:
 * TripClick Logs Dataset
 * TripClick IR Benchmark
 * TripClick Training Package for Deep Learning Models
+* Related [publication](url)
 
 Please consult the **Getting the Data** section if you wish to obtain one or more of the listed above.
 
@@ -14,6 +15,8 @@ TheTripClicklogs dataset consists of the user interactions of the Trip search en
 <img src="qry_hist_corona.gif" alt="COVID-19 related queries histogram" width="400"/>
 
 Finally, looking at the query contents, figure above reports the number of times a query related to the COVID-19 virus is submitted to the search engine in the period of 2018-2020. The data for 2018 and 2019 are presented as annual sums, while for the year 2020,numbers are reported per month. While there are only few COVID-19-related queries before the February of 2020, the information needrapidly gains popularity with a peak in April. The provided data is potentially a useful resource for studying the COVID-19 pandemic,as well as the reaction and evolution of search engines regarding thesudden emergence of previously unknown/uncommon disease.
+
+See [the paper](url) for more detail.
 
 ### TripClick IR Benchmark
 
