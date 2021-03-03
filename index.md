@@ -18,7 +18,7 @@ TheTripClicklogs dataset consists of the user interactions of the Trip search en
 
 Finally, looking at the query contents, figure above reports the number of times a query related to the COVID-19 virus is submitted to the search engine in the period of 2018-2020. The data for 2018 and 2019 are presented as annual sums, while for the year 2020,numbers are reported per month. While there are only few COVID-19-related queries before the February of 2020, the information needrapidly gains popularity with a peak in April. The provided data is potentially a useful resource for studying the COVID-19 pandemic,as well as the reaction and evolution of search engines regarding thesudden emergence of previously unknown/uncommon disease.
 
-See [the paper](url) for more detail.
+See [the paper][paper] for more detail.
 
 ### TripClick IR Benchmark
 **Documents** To create the TripClick benchmark, we use a subset of click log entries that refer to those documents that are indexed in the MEDLINE catalog. This subset encom-passes around 4 million log entries. The collection of documents that appear in the subset of click logs, results in approximately 1.5 million unique documents. For each document, we fetch the corresponding article from the MEDLINE catalog. Similar to the TREC Precision Medicine track we use the title and abstract of the articles as documents of the TripClick benchmark.
@@ -27,12 +27,12 @@ See [the paper](url) for more detail.
 
 **Relevance**  We provide two sets of query-to-document relevance signals, each created using a click-through model. The first relevance set, referred to as RAW, follows a simple approach by considering every clicked document as relevant to its corresponding query. The second set uses the Document Click-Through Rate (DCTR). Creating two sets using different click-through models provides insight about the effect of each click-through model on the final evaluation results, achieved using the corresponding relevance signals.
 
-See [the paper](url) for more detail.
+See [the paper][paper] for more detail.
 
 ### TripClick DL Training Package
 Our Training Package provides sufficiemt volume of data to facilitate training of deep neural IR models. It has structure similar to [MS MARCO](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019). Note that TripClick data is specific to health domain and user behaviour patterns present in it may differ significantly from ones observed in more general purpouse datasets.
 
-See [the paper](url) for more detail and experiment reports.
+See [the paper][paper] for more detail and experiment reports.
 
 ### Getting the Data
 We offer the three following resource packages:
@@ -49,14 +49,17 @@ Below we describe contents of each package in detail.
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
 | allarticles.tar.gz | 235M | tsv: id	title	url |  |
-| 2013.tar.gz | 56M | JSON |. |
-| 2014.tar.gz | 62M |  JSON |. |
-| 2015.tar.gz | 61M |  JSON |. |
-| 2016.tar.gz | 91M |  JSON |. |
-| 2017.tar.gz | 103M |  JSON |. |
-| 2018.tar.gz | 115M |  JSON |. |
-| 2019.tar.gz | 103M |  JSON |. |
-| 2020.tar.gz | 77M |  JSON |. |
+| 2013.tar.gz | 56M | JSON | arrays of log records |
+| 2014.tar.gz | 62M |  JSON | arrays of log records |
+| 2015.tar.gz | 61M |  JSON | arrays of log records |
+| 2016.tar.gz | 91M |  JSON | arrays of log records |
+| 2017.tar.gz | 103M |  JSON | arrays of log records |
+| 2018.tar.gz | 115M |  JSON | arrays of log records |
+| 2019.tar.gz | 103M |  JSON | arrays of log records |
+| 2020.tar.gz | 77M |  JSON | arrays of log records |
+
+The **\<year>.tar.gz** archives contain .json files with by day-split logs, e.g. **2017-03-24.json**, ...
+The exact format is describet in [the paper][paper].
 
 Total: **900M**
 #### TripClick IR Benchmark
