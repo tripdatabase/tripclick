@@ -28,6 +28,9 @@ See [the paper](url) for more detail.
 See [the paper](url) for more detail.
 
 ### TripClick DL Training Package
+Our Training Package provides sufficiemt volume of data to facilitate training of deep neural IR models. It has structure similar to [MS MARCO](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019). Note that TripClick data is specific to health domain and user behaviour patterns present in it may differ significantly from ones observed in more general purpouse datasets.
+
+See [the paper](url) for more detail and experiment reports.
 
 ### Getting the Data
 We offer the three following resource packages:
