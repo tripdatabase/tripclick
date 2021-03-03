@@ -1,11 +1,13 @@
 ### Welcome!
 We present a large-scale domain-specific dataset of click logs, obtained from user interactions of the [Trip Database](https://www.tripdatabase.com) health web search engine. Our clicklog dataset comprises approximately 5.2 million user interactionscollected between 2013 and 2020. We use this dataset to create a standard IR evaluation benchmark **TripClick** with around 700,000 unique free-text queries and 1.3 million pairs of query-document relevance signals, whose relevance is estimated by two click-through models. As such, the collection is one of the few datasets offering the necessary data richness and scale to train neural IR models with large amount of parameters, and notably the first in the health domain.
 
+[paper]: https://tripdatabase.github.io/tripclick/
+
 Available resources:
 * TripClick Logs Dataset
 * TripClick IR Benchmark
 * TripClick Training Package for Deep Learning Models
-* Related [publication](url)
+* Related [publication][paper]
 
 Please consult the **Getting the Data** section if you wish to obtain one or more of the listed above.
 
@@ -46,15 +48,15 @@ Below we describe contents of each package in detail.
 
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
-| allarticles.tar.gz | 235M |
-| 2013.tar.gz | 56M | . | . |
-| 2014.tar.gz | 62M | . | . |
-| 2015.tar.gz | 61M | . | . |
-| 2016.tar.gz | 91M | . | . |
-| 2017.tar.gz | 103M | . | . |
-| 2018.tar.gz | 115M | . | . |
-| 2019.tar.gz | 103M | . | . |
-| 2020.tar.gz | 77M | . | . |
+| allarticles.tar.gz | 235M | tsv: id	title	url |  |
+| 2013.tar.gz | 56M | JSON |. |
+| 2014.tar.gz | 62M |  JSON |. |
+| 2015.tar.gz | 61M |  JSON |. |
+| 2016.tar.gz | 91M |  JSON |. |
+| 2017.tar.gz | 103M |  JSON |. |
+| 2018.tar.gz | 115M |  JSON |. |
+| 2019.tar.gz | 103M |  JSON |. |
+| 2020.tar.gz | 77M |  JSON |. |
 
 Total: **900M**
 #### TripClick IR Benchmark
