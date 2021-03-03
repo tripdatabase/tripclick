@@ -49,17 +49,17 @@ Below we describe contents of each package in detail.
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
 | allarticles.tar.gz | 235M | tsv: id	title	url |  |
-| 2013.tar.gz | 56M | JSON | arrays of log records |
-| 2014.tar.gz | 62M |  JSON | arrays of log records |
-| 2015.tar.gz | 61M |  JSON | arrays of log records |
-| 2016.tar.gz | 91M |  JSON | arrays of log records |
-| 2017.tar.gz | 103M |  JSON | arrays of log records |
-| 2018.tar.gz | 115M |  JSON | arrays of log records |
-| 2019.tar.gz | 103M |  JSON | arrays of log records |
-| 2020.tar.gz | 77M |  JSON | arrays of log records |
+| 2013.tar.gz | 56M | JSON | log records |
+| 2014.tar.gz | 62M |  JSON | log records |
+| 2015.tar.gz | 61M |  JSON | log records |
+| 2016.tar.gz | 91M |  JSON | log records |
+| 2017.tar.gz | 103M |  JSON | log records |
+| 2018.tar.gz | 115M |  JSON | log records |
+| 2019.tar.gz | 103M |  JSON | log records |
+| 2020.tar.gz | 77M |  JSON | log records |
 
-The **\<year>.tar.gz** archives contain .json files with by day-split logs, e.g. **2017-03-24.json**, ...
-The exact format is describet in [the paper][paper].
+The **\<year>.tar.gz** archives contain .json files with by day-split logs, e.g. **2017-03-24.json**, ... with one log json record per line.
+The exact record format is described in [the paper][paper].
 
 Total: **900M**
 #### TripClick IR Benchmark
@@ -98,6 +98,6 @@ Total: **29G**
 ### Terms and Conditions
 ### Legal Notices
 ### Contact Us
-If you have any questions regarding the dataset, please contact us:
+If you have any questions regarding the dataset or found an error on this page, please contact us:
 * Oleg Lesota (Johannes Kepler University, Linz, Austria)
 * Navid Rekab-Saz (Johannes Kepler University, Linz, Austria)
