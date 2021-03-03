@@ -7,6 +7,7 @@ Available resources:
 * TripClick Logs Dataset
 * TripClick IR Benchmark
 * TripClick Training Package for Deep Learning Models
+* [Code used for creating the benchmark](https://github.com/tripdatabase/tripclick/tree/main)
 * Related [publication][paper]
 
 Please consult the **Getting the Data** section if you wish to obtain one or more of the listed above.
