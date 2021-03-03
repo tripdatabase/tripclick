@@ -19,7 +19,13 @@ Finally, looking at the query contents, figure above reports the number of times
 See [the paper](url) for more detail.
 
 ### TripClick IR Benchmark
+**Documents** To create the TripClick benchmark, we use a subset of click log entries that refer to those documents that are indexed in the MEDLINE catalog. This subset encom-passes around 4 million log entries. The collection of documents that appear in the subset of click logs, results in approximately 1.5 million unique documents. For each document, we fetch the corresponding article from the MEDLINE catalog. Similar to the TREC Precision Medicine track we use the title and abstract of the articles as documents of the TripClick benchmark.
 
+**Queries** The queries from the subset of click logs, comprise around 692,000 unique entities. We split thequeries into three groups, namely HEAD,TORSO, and TAIL, such that the queries in this sets cover 20%, 30%, and 50% of the search enginetraffic (according to the subset of click logs). This, in fact, results in assigning the queries with frequencies lower than 6 to TAIL, the ones between 6 and 44 to TORSO, and all the rest with frequencies higher higher than 44 to HEAD. While the numbers of unique queries in HEAD and TORSO are much smaller than those in TAIL, the former together still cover half of the search engine’straffic since their queries repeat much more often than the ones of TAIL.
+
+**Relevance**  We provide two sets of query-to-document relevance signals, each created using a click-through model. The first relevance set, referred to as RAW, follows a simple approach by considering every clicked document as relevant to its corresponding query. The second set uses the Document Click-Through Rate (DCTR). Creating two sets using different click-through models provides insight about the effect of each click-through model on the final evaluation results, achieved using the corresponding relevance signals.
+
+See [the paper](url) for more detail.
 
 ### TripClick DL Training Package
 
