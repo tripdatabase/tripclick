@@ -8,36 +8,16 @@ Available resources:
 
 Please consult the **Getting the Data** section if you wish to obtain one or more of the listed above.
 
-### Introduction
 ### TripClick Logs Dataset
+TheTripClicklogs dataset consists of the user interactions of the Trip search engine collected between January 2013 and October 2020. Each entry consists of date and time of search (in Unix time, in milliseconds),search session identifier, submitted query (Keywordsfield), document identifiers of the top 20 retrieved documents, and the metadata of the clicked document. For the clicked document, the provided data contains its unique identifier and URL. If the clicked document is a scientific publication, its title, DOI, and clinical areas are also stored. We should emphasize that the privacy of individual users is preserved in the clicked search logs by cautiously removing any personally identifiable information. The TripClicklogs dataset consists of approximately 5.2 million click log entries, appeared in around 1.6 million search sessions (∼3.3 interactions per session). The click logs contain around 1.6 million unique queries. These unique queries appear in the logs at varying frequencies. Examples of a frequent and a rare query are “asthma pregnancy”, and “antimicrobial activity of medicinal plants”, respectively. The log files contain approximately 2.3 million documents. Together with the dataset of click logs, we provide the corresponding titles and URLs of all documents. Examining the origin of clicked documents, we observe that approximately 80% of the documents point to articles in the MEDLINE catalog, around 11% to entries in https://clinicaltrials.gov, and the rest to various publicly available resources on the web.
 
-| Statistic of TripClick logs dataset | Value |
-|---|---:|
-| Number of click log entries | 5,272,064 |
-| Number of sessions | 1,602,648 |
-| Average number of query-document interactions per session | 3.3 |
-| Number of unique queries | 1,647,749 |
-| Number of documents (clicked or retrieved) | 2,347,977 |
+![COVID-19 related queries histogram](qry_hist_corona.png)
 
+Finally, looking at the query contents, figure above reports the number of times a query related to the COVID-19 virus is submitted to the search engine in the period of 2018-2020. The data for 2018 and 2019 are presented as annual sums, while for the year 2020,numbers are reported per month. While there are only few COVID-19-related queries before the February of 2020, the information needrapidly gains popularity with a peak in April. The provided data is potentially a useful resource for studying the COVID-19 pandemic,as well as the reaction and evolution of search engines regarding thesudden emergence of previously unknown/uncommon disease.
 
 ### TripClick IR Benchmark
 
-| Statistic of TripClick IR benchmark | Value |
-|---|-----:|
-| Number of query-document interactions | 4,054,593 |
-| Number of documents | 1,523,878 |
-| Number of queries <br> (HEAD / TORSO / TAIL) <br> (TOTAL) | 5,879 / 108,314 / 578,506 <br> 692,699 |
-| Average query length | 4.4±2.4 |
-| Average document length | 259.0±81.7 |
-| Number of RAW relevance data points <br> (HEAD / TORSO / TAIL) <br> (TOTAL) | 246,754 / 994,529 / 1,629,543 <br> 2,870,826 |
-| Average RAW relevance data points per query <br> (HEAD / TORSO / TAIL) | 41.9 / 9.1 / 2.8 |
-| Number of DCTR relevance data points (HEAD) | 263,175 |
-| Average DCTR relevance data points per query (HEAD) | 46.2 |
-| Number of queries used in the training set: | 685,649 |
-| Number of non-zero RAW relevance data points <br> used to create training set | 1,105,811 |
-| Number of items in the training set | 23,222,038 |
-| Number of queries in the validation sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,175 |
-| Number of queries in the test sets <br> (HEAD / TORSO / TAIL) | 1,175 / 1,175 / 1,175 |
+### TripClick DL Training Package
 
 ### Getting the Data
 We offer the three following resource packages:
@@ -97,7 +77,6 @@ Total: **930M**
 
 Total: **29G**
 
-### Experiments
 ### Terms and Conditions
 ### Legal Notices
 ### Contact Us
