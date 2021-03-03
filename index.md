@@ -93,3 +93,6 @@ Total: **29G**
 ### Terms and Conditions
 ### Legal Notices
 ### Contact Us
+If you have any questions regarding the dataset, please contact us:
+* Oleg Lesota (Johannes Kepler University, Linz, Austria)
+* Navid Rekab-Saz (Johannes Kepler University, Linz, Austria)
