@@ -42,7 +42,7 @@ We offer the three following resource packages:
 2. TripClick IR Benchmark
 3. TripClick Training Package for Deep Learning Models
 
-One or more of the listed above can be requested for free via an email: [contact person](mailto:contact@person.com?subject=[TripClick]%20Data%20Request).
+One or more of the listed above can be requested for free via an email: [jon.brassey@tripdatabase.com](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]%20Data%20Request).
 <br>Please, **specify needed data packages and intended use of the data**.
 
 Below we describe contents of each package in detail.
@@ -98,8 +98,13 @@ Total: **930M**
 Total: **29G**
 
 ### Terms and Conditions
+The provided datasets are intended for non-commercial research purposes to promote advancement in the field of natural language processing, information retrieval and related areas in the humanitarian community, and is made available free of charge without extending any license or other intellectual property rights. The dataset is provided “as is” without warranty and the raw data should not be publicly shared or hosted, although aggregate findings and visualizations may be. We are not be liable for any damages related to use of the dataset. Feedback is welcome. Upon violation of any of these terms, your rights to use the dataset will end automatically.
+
 ### Legal Notices
 ### Contact Us
-If you have any questions regarding the dataset or found an error on this page, please contact us:
-* Oleg Lesota (Johannes Kepler University, Linz, Austria)
-* Navid Rekab-Saz (Johannes Kepler University, Linz, Austria)
+If you have any questions regarding technical aspects of the dataset, please, contact us:
+* [Oleg Lesota](https://www.jku.at/en/institute-of-computational-perception/about-us/people/oleg-lesota/) (Johannes Kepler University, Linz, Austria)
+* [Navid Rekab-Saz](https://www.jku.at/en/institute-of-computational-perception/about-us/people/navid-rekab-saz/) (Johannes Kepler University, Linz, Austria)
+
+Please, address questions related to obtaining the data as well as to the terms of use to:
+* [Jon Brassey](mailto:jon.brassey@tripdatabase.com?subject=[TripClick])
