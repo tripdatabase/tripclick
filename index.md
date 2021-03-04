@@ -107,4 +107,4 @@ If you have any questions regarding technical aspects of the dataset, please, co
 * [Navid Rekab-Saz](https://www.jku.at/en/institute-of-computational-perception/about-us/people/navid-rekab-saz/) (Johannes Kepler University, Linz, Austria)
 
 Please, address questions related to obtaining the data as well as to the terms of use to:
-* [Jon Brassey](mailto:jon.brassey@tripdatabase.com?subject=[TripClick])
+* [Jon Brassey](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]) (Trip Database)
