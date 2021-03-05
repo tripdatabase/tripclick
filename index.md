@@ -69,14 +69,14 @@ The exact record format is described in [the paper][paper].
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
 | collection.tar.gz | 875M | . | . |
-| qrels.dctr.head.tar.gz | 2M | . | . |
-| qrels.raw.head.tar.gz | 2M | . | . |
-| qrels.raw.tail.tar.gz | 10M | . | . |
-| qrels.raw.torso.tar.gz | 6M | . | . |
-| topics.all.tar.gz | 13M | . | . |
-| topics.head.tar.gz | 1M | . | . |
-| topics.tail.tar.gz | 22M | . | . |
-| topics.torso.tar.gz | 4M | . | . |
+| qrels.dctr.head.tar.gz | 2M | qid, “0”, docid, rating | . |
+| qrels.raw.head.tar.gz | 2M | qid, “0”, docid, rating | . |
+| qrels.raw.tail.tar.gz | 10M | qid, “0”, docid, rating | . |
+| qrels.raw.torso.tar.gz | 6M | qid, “0”, docid, rating | . |
+| topics.all.tar.gz | 13M | XML | . |
+| topics.head.tar.gz | 1M | XML | . |
+| topics.tail.tar.gz | 22M | XML | . |
+| topics.torso.tar.gz | 4M | XML | . |
 
 Total: **930M**
 
