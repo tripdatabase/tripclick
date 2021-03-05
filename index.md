@@ -84,16 +84,16 @@ Total: **930M**
 
 | File Name | File Size | Format | Description |
 |---|---:|---|---|
-| run.trip.BM25.head.test.tar.gz | 12M | . | . |
-| run.trip.BM25.tail.test.tar.gz | 12M | . | . |
-| run.trip.BM25.torso.test.tar.gz | 12M | . | . |
-| triples.train.tsv.tar.gz | 28G | . | . |
-| tuples.head.test.top200.tar.gz | 130M | . | . |
-| tuples.head.val.top200.tar.gz | 131M | . | . |
-| tuples.tail.test.top200.tar.gz | 134M | . | . |
-| tuples.tail.val.top200.tar.gz | 134M | . | . |
-| tuples.torso.test.top200.tar.gz | 132M | . | . |
-| tuples.torso.val.top200.tar.gz | 132M | . | . |
+| run.trip.BM25.head.test.tar.gz | 12M | TREC-like: qid, “Q0”, docid, rank, score, runstring | Pre-ranking result, frequent queries |
+| run.trip.BM25.tail.test.tar.gz | 12M | TREC-like: qid, “Q0”, docid, rank, score, runstring | Pre-ranking result, rare queries |
+| run.trip.BM25.torso.test.tar.gz | 12M | TREC-like: qid, “Q0”, docid, rank, score, runstring | Pre-ranking result, torso queries |
+| triples.train.tsv.tar.gz | 28G | tsv: query, positive passage, negative passage | Plain-text training data |
+| tuples.head.test.top200.tar.gz | 130M | tsv: qid, pid, query, passage | Test set, frequent queries |
+| tuples.head.val.top200.tar.gz | 131M | tsv: qid, pid, query, passage | Val set, frequent queries |
+| tuples.tail.test.top200.tar.gz | 134M | tsv: qid, pid, query, passage | Test set, rare queries |
+| tuples.tail.val.top200.tar.gz | 134M | tsv: qid, pid, query, passage | Val set, rare queries |
+| tuples.torso.test.top200.tar.gz | 132M | tsv: qid, pid, query, passage | Test set, torso queries |
+| tuples.torso.val.top200.tar.gz | 132M | tsv: qid, pid, query, passage | Val set, torso queries |
 
 Total: **29G**
 
