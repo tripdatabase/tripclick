@@ -42,7 +42,7 @@ We offer the three following resource packages:
 2. TripClick IR Benchmark
 3. TripClick Training Package for Deep Learning Models
 
-One or more of the listed above can be requested for free via an email: [jon.brassey@tripdatabase.com](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]%20Data%20Request).
+One or more of the listed above can be acquired for free through filling and sending [this form](https://docs.google.com/document/d/1RHVxVnZsPBDDZMDcSvbB8VyNZDl2cn6KpeeSvIu6g_c/edit?usp=sharing) to [jon.brassey@tripdatabase.com](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]%20Data%20Request).
 <br>Please, **specify needed data packages and intended use of the data**.
 
 Below we describe contents of each package in detail.
@@ -96,6 +96,14 @@ Total: **930M**
 | tuples.torso.val.top200.tar.gz | 132M | tsv: qid, pid, query, passage | Val set, torso queries |
 
 Total: **29G**
+
+#### Checksums
+
+| Data Package | File Name | md5 |
+|---|---|---|
+| TripClick Logs Dataset | dataset.gz | 9af10fdc7513f5e7ed572556f809b6dd |
+| TripClick IR Benchmark | benchmark.gz | abe0fec973bc02a238891a892891e89c |
+| TripClick Training Package for Deep Learning Models | dlfiles.gz | f870651ead060ed4dcbc10bbf444027e |
 
 ### Terms and Conditions
 The provided datasets are intended for non-commercial research purposes to promote advancement in the field of natural language processing, information retrieval and related areas in the humanitarian community, and is made available free of charge without extending any license or other intellectual property rights. The dataset is provided “as is” without warranty and the raw data should not be publicly shared or hosted, although aggregate findings and visualizations may be. We are not be liable for any damages related to use of the dataset. Feedback is welcome. Upon violation of any of these terms, your rights to use the dataset will end automatically.
