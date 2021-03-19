@@ -2,6 +2,7 @@
 We present a large-scale domain-specific dataset of click logs, obtained from user interactions of the [Trip Database](https://www.tripdatabase.com) health web search engine. Our clicklog dataset comprises approximately 5.2 million user interactionscollected between 2013 and 2020. We use this dataset to create a standard IR evaluation benchmark **TripClick** with around 700,000 unique free-text queries and 1.3 million pairs of query-document relevance signals, whose relevance is estimated by two click-through models. As such, the collection is one of the few datasets offering the necessary data richness and scale to train neural IR models with large amount of parameters, and notably the first in the health domain.
 
 [paper]: https://arxiv.org/abs/2103.07901
+[citation]: https://github.com/tripdatabase/tripclick/blob/gh-pages/cite.bib
 
 Available resources:
 * TripClick Logs Dataset
@@ -11,7 +12,7 @@ Available resources:
 Please consult the **Getting the Data** section if you wish to obtain one or more of the listed above.
 
 * [Code used for creating the benchmark](https://github.com/tripdatabase/tripclick/tree/main)
-* Related [publication][paper]
+* Related [publication][paper] [Bibtex Citation][citation]
 
 ### TripClick Logs Dataset
 TheTripClicklogs dataset consists of the user interactions of the Trip search engine collected between January 2013 and October 2020. Each entry consists of date and time of search (in Unix time, in milliseconds),search session identifier, submitted query (Keywordsfield), document identifiers of the top 20 retrieved documents, and the metadata of the clicked document. For the clicked document, the provided data contains its unique identifier and URL. If the clicked document is a scientific publication, its title, DOI, and clinical areas are also stored. We should emphasize that the privacy of individual users is preserved in the clicked search logs by cautiously removing any personally identifiable information. The TripClicklogs dataset consists of approximately 5.2 million click log entries, appeared in around 1.6 million search sessions (∼3.3 interactions per session). The click logs contain around 1.6 million unique queries. These unique queries appear in the logs at varying frequencies. Examples of a frequent and a rare query are “asthma pregnancy”, and “antimicrobial activity of medicinal plants”, respectively. The log files contain approximately 2.3 million documents. Together with the dataset of click logs, we provide the corresponding titles and URLs of all documents. Examining the origin of clicked documents, we observe that approximately 80% of the documents point to articles in the MEDLINE catalog, around 11% to entries in https://clinicaltrials.gov, and the rest to various publicly available resources on the web.
@@ -44,6 +45,8 @@ We offer the three following resource packages:
 
 One or more of the listed above can be acquired for free through filling and sending [this form](https://docs.google.com/document/d/1RHVxVnZsPBDDZMDcSvbB8VyNZDl2cn6KpeeSvIu6g_c/edit?usp=sharing) to [jon.brassey@tripdatabase.com](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]%20Data%20Request).
 <br>Please, **specify needed data packages and intended use of the data**.
+
+[Citation][citation].
 
 Below we describe contents of each package in detail.
 #### TripClick Logs Dataset
