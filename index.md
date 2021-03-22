@@ -66,15 +66,15 @@ The exact record format is described in [the paper][paper].
 
 | File Name | File Size | Format | Description |
 |---|---|---|
-| docs_grp_\<\*[00-15]*>.txt | TREC format | document collection split between 16 files|
-| qrels.dctr.head.tar.gz | 2M | qid, “0”, docid, rating | . |
-| qrels.raw.head.tar.gz | 2M | qid, “0”, docid, rating | . |
-| qrels.raw.tail.tar.gz | 10M | qid, “0”, docid, rating | . |
-| qrels.raw.torso.tar.gz | 6M | qid, “0”, docid, rating | . |
-| topics.all.tar.gz | 13M | TREC format | all topcs |
-| topics.head.tar.gz | 1M | TREC format | frequent topics |
-| topics.tail.tar.gz | 22M | TREC format | rare topics |
-| topics.torso.tar.gz | 4M | TREC format | torso topics |
+| docs_grp_\<\[00-15]>.txt | TREC format | document collection split between 16 files|
+| qrels.dctr.head.tar.gz | qid, “0”, docid, rating | . |
+| qrels.raw.head.tar.gz | qid, “0”, docid, rating | . |
+| qrels.raw.tail.tar.gz | qid, “0”, docid, rating | . |
+| qrels.raw.torso.tar.gz | qid, “0”, docid, rating | . |
+| topics.all.tar.gz | TREC format | all topcs |
+| topics.head.tar.gz | TREC format | frequent topics |
+| topics.tail.tar.gz | TREC format | rare topics |
+| topics.torso.tar.gz | TREC format | torso topics |
 
 Total archive size: **930M**
 
