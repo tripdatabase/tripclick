@@ -64,7 +64,7 @@ The exact record format is described in [the paper][paper].
 
 #### TripClick IR Benchmark
 
-| File Name | File Size | Format | Description |
+| File Name | Format | Description |
 |---|---|---|
 | docs_grp_\<\[00-15]>.txt | TREC format | document collection split between 16 files|
 | qrels.dctr.head.tar.gz | qid, “0”, docid, rating | . |
