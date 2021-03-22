@@ -68,7 +68,7 @@ The exact record format is described in [the paper][paper].
 |---|---|---|
 | docs_grp_\<*\[00-15]*>.txt | TREC format | document collection split between 16 files|
 | qrels.dctr.head.\<*\[test, train, val]*>.txt | qid, “0”, docid, rating | DCTR-based qrels in three files (test, train, val) |
-| qrels.raw.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.txt | qid, “0”, docid, rating | RAW-based qrels in nine files \br (test, train, val)\*(head, torso, tail) |
+| qrels.raw.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.txt | qid, “0”, docid, rating | RAW-based qrels in nine files <\br> (test, train, val)\*(head, torso, tail) |
 | topics.all.txt | TREC format | all topcs |
 | topics.\<*\[head, torso, tail]*>.\<*\[all, test, train, val]*>.txt | TREC format | Topics in twelve files (test, train, val)\*(all, head, torso, tail) |
 
