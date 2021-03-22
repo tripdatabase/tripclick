@@ -78,9 +78,9 @@ Total archive size: **930M**
 
 | File Name | Format | Description |
 |---|---|---|
-| run.trip.BM25.\<*\[head, torso, tail]*>.val.tar.gz | TREC-like: qid, “Q0”, docid, rank, score, runstring | Pre-ranking results, three files:<br />(head, torso, tail) |
-| triples.train.tsv | tsv: query, pos. passage, neg. passage | Plain-text training data<br />**(size: 86G)**|
-| tuples.\<*\[head, torso, tail]*>.\<*\[test, val]*>.top200.tsv | tsv: qid, pid, query, passage | test and validation sets, six files:<br />(test, val)\*(head, torso, tail)|
+| run.trip.BM25.\<*\[head, torso, tail]*>.val.tar.gz | TREC-like:<br />qid, “Q0”, docid, rank, score, runstring | Pre-ranking results, three files:<br />(head, torso, tail) |
+| triples.train.tsv | tsv:<br />query, pos. passage, neg. passage | Plain-text training data<br />**(size: 86G)**|
+| tuples.\<*\[head, torso, tail]*>.\<*\[test, val]*>.top200.tsv | tsv:<br />qid, pid, query, passage | test and validation sets, six files:<br />(test, val)\*(head, torso, tail)|
 
 Total archive size: **29G**
 
