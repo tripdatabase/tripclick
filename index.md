@@ -52,22 +52,16 @@ One or more of the listed above can be acquired for free through filling and sen
 Below we describe contents of each package in detail.
 #### TripClick Logs Dataset
 
-| File Name | File Size | Format | Description |
-|---|---:|---|---|
-| allarticles.tar.gz | 235M | tsv: id	title	url | article collection |
-| 2013.tar.gz | 56M | JSON | log records |
-| 2014.tar.gz | 62M |  JSON | log records |
-| 2015.tar.gz | 61M |  JSON | log records |
-| 2016.tar.gz | 91M |  JSON | log records |
-| 2017.tar.gz | 103M |  JSON | log records |
-| 2018.tar.gz | 115M |  JSON | log records |
-| 2019.tar.gz | 103M |  JSON | log records |
-| 2020.tar.gz | 77M |  JSON | log records |
+| File Name | Format | Description |
+|---|---|---|
+| allarticles.txt | tsv: id	title	url | article collection |
+| \<YYYY>-\<MM>-\<DD>.json | JSON | log records |
 
-Total: **900M**
+Total archive size: **900M**
 
-The **\<year>.tar.gz** archives contain .json files with by day-split logs, e.g. **2017-03-24.json**, ... with one json-formatted log record per line.
+The **\<YYYY>-\<MM>-\<DD>.json** files contain by day-split logs, e.g. **2017-03-24.json**, ... with one json-formatted log record per line.
 The exact record format is described in [the paper][paper].
+
 #### TripClick IR Benchmark
 
 | File Name | File Size | Format | Description |
@@ -82,7 +76,7 @@ The exact record format is described in [the paper][paper].
 | topics.tail.tar.gz | 22M | TREC format | rare topics |
 | topics.torso.tar.gz | 4M | TREC format | torso topics |
 
-Total: **930M**
+Total archive size: **930M**
 
 #### TripClick Training Package for Deep Learning Models
 
@@ -99,15 +93,15 @@ Total: **930M**
 | tuples.torso.test.top200.tar.gz | 132M | tsv: qid, pid, query, passage | Test set, torso queries |
 | tuples.torso.val.top200.tar.gz | 132M | tsv: qid, pid, query, passage | Val set, torso queries |
 
-Total: **29G**
+Total archive size: **29G**
 
 #### Checksums
 
 | Data Package | File Name | md5 |
 |---|---|---|
-| TripClick Logs Dataset | dataset.gz | 9af10fdc7513f5e7ed572556f809b6dd |
-| TripClick IR Benchmark | benchmark.gz | abe0fec973bc02a238891a892891e89c |
-| TripClick Training Package for Deep Learning Models | dlfiles.gz | f870651ead060ed4dcbc10bbf444027e |
+| TripClick Logs Dataset | dataset.tar.gz | bede39fac103fad3296b0528eb07f82a |
+| TripClick IR Benchmark | benchmark.tar.gz | 6062c9748f5d62cd57228d36f8954da4 |
+| TripClick Training Package for Deep Learning Models | dlfiles.tar.gz | - |
 
 ### Terms and Conditions
 The provided datasets are intended for non-commercial research purposes to promote advancement in the field of natural language processing, information retrieval and related areas, and are made available free of charge without extending any license or other intellectual property rights. In particular:
