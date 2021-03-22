@@ -65,8 +65,8 @@ The exact record format is described in [the paper][paper].
 #### TripClick IR Benchmark
 
 | File Name | File Size | Format | Description |
-|---|---:|---|---|
-| collection.tar.gz | 875M | TREC format | document collection |
+|---|---|---|
+| docs_grp_\<\*[00-15]*>.txt | TREC format | document collection split between 16 files|
 | qrels.dctr.head.tar.gz | 2M | qid, “0”, docid, rating | . |
 | qrels.raw.head.tar.gz | 2M | qid, “0”, docid, rating | . |
 | qrels.raw.tail.tar.gz | 10M | qid, “0”, docid, rating | . |
