@@ -67,27 +67,20 @@ The exact record format is described in [the paper][paper].
 | File Name | Format | Description |
 |---|---|---|
 | docs_grp_\<*\[00-15]*>.txt | TREC format | document collection split between 16 files|
-| qrels.dctr.head.\<*\[test, train, val]*>.txt | qid, “0”, docid, rating | DCTR-based qrels in three files<br />(test, train, val) |
-| qrels.raw.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.txt | qid, “0”, docid, rating | RAW-based qrels in nine files<br />(test, train, val)\*(head, torso, tail) |
+| qrels.dctr.head.\<*\[test, train, val]*>.txt | qid, “0”, docid, rating | DCTR-based qrels in three files:<br />(test, train, val) |
+| qrels.raw.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.txt | qid, “0”, docid, rating | RAW-based qrels in nine files:<br />(test, train, val)\*(head, torso, tail) |
 | topics.all.txt | TREC format | all topcs |
-| topics.\<*\[head, torso, tail]*>.\<*\[all, test, train, val]*>.txt | TREC format | Topics in twelve files<br />(test, train, val)\*(all, head, torso, tail) |
+| topics.\<*\[head, torso, tail]*>.\<*\[all, test, train, val]*>.txt | TREC format | Topics in twelve files:<br />(test, train, val)\*(all, head, torso, tail) |
 
 Total archive size: **930M**
 
 #### TripClick Training Package for Deep Learning Models
 
-| File Name | File Size | Format | Description |
-|---|---:|---|---|
-| run.trip.BM25.head.test.tar.gz | 12M | TREC-like: qid, “Q0”, docid, rank, score, runstring | Pre-ranking result, frequent queries |
-| run.trip.BM25.tail.test.tar.gz | 12M | TREC-like: qid, “Q0”, docid, rank, score, runstring | Pre-ranking result, rare queries |
-| run.trip.BM25.torso.test.tar.gz | 12M | TREC-like: qid, “Q0”, docid, rank, score, runstring | Pre-ranking result, torso queries |
-| triples.train.tsv.tar.gz | 28G | tsv: query, positive passage, negative passage | Plain-text training data |
-| tuples.head.test.top200.tar.gz | 130M | tsv: qid, pid, query, passage | Test set, frequent queries |
-| tuples.head.val.top200.tar.gz | 131M | tsv: qid, pid, query, passage | Val set, frequent queries |
-| tuples.tail.test.top200.tar.gz | 134M | tsv: qid, pid, query, passage | Test set, rare queries |
-| tuples.tail.val.top200.tar.gz | 134M | tsv: qid, pid, query, passage | Val set, rare queries |
-| tuples.torso.test.top200.tar.gz | 132M | tsv: qid, pid, query, passage | Test set, torso queries |
-| tuples.torso.val.top200.tar.gz | 132M | tsv: qid, pid, query, passage | Val set, torso queries |
+| File Name | Format | Description |
+|---|---|---|
+| run.trip.BM25.\<*\[head, torso, tail]*>.val.tar.gz | TREC-like: qid, “Q0”, docid, rank, score, runstring | Pre-ranking results, three files:<br />(head, torso, tail) |
+| triples.train.tsv | tsv: query, positive passage, negative passage | Plain-text training data **(size: 86G)**|
+| tuples.\<*\[head, torso, tail]*>.\<*\[test, val]*>.top200.tsv | tsv: qid, pid, query, passage | test and validation sets, six files:<br />(test, val)\*(head, torso, tail)|
 
 Total archive size: **29G**
 
