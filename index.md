@@ -90,7 +90,7 @@ Total archive size: **29G**
 |---|---|---|
 | TripClick Logs Dataset | dataset.tar.gz | bede39fac103fad3296b0528eb07f82a |
 | TripClick IR Benchmark | benchmark.tar.gz | 6062c9748f5d62cd57228d36f8954da4 |
-| TripClick Training Package for Deep Learning Models | dlfiles.tar.gz | - |
+| TripClick Training Package for Deep Learning Models | dlfiles.tar.gz | 1f256c19466b414e365324d8ef21f09c |
 
 ### Terms and Conditions
 The provided datasets are intended for non-commercial research purposes to promote advancement in the field of natural language processing, information retrieval and related areas, and are made available free of charge without extending any license or other intellectual property rights. In particular:
