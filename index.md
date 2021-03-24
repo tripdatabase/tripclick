@@ -57,7 +57,7 @@ Below we describe contents of each package in detail.
 | allarticles.txt | tsv: id	title	url | article collection |
 | \<YYYY>-\<MM>-\<DD>.json | JSON | log records |
 
-Total archive size: **900M**
+Total archive size: **871M**
 
 The **\<YYYY>-\<MM>-\<DD>.json** files contain by day-split logs, e.g. **2017-03-24.json**, ... with one json-formatted log record per line.
 The exact record format is described in [the paper][paper].
@@ -88,7 +88,7 @@ Total archive size: **29G**
 
 | Data Package | File Name | md5 |
 |---|---|---|
-| TripClick Logs Dataset | logs.tar.gz | bede39fac103fad3296b0528eb07f82a |
+| TripClick Logs Dataset | logs.tar.gz | 1d3a548685c2fbef9b2076b0b04ba44f |
 | TripClick IR Benchmark | benchmark.tar.gz | 6062c9748f5d62cd57228d36f8954da4 |
 | TripClick Training Package for Deep Learning Models | dlfiles.tar.gz | 1f256c19466b414e365324d8ef21f09c |
 |  |dlfiles_runs_test.tar.gz | 2b5e98c683a91e19630636b6f83e3b15 |
