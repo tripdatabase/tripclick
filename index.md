@@ -47,8 +47,6 @@ We offer the three following resource packages:
 One or more of the listed above can be acquired for free through filling and sending [this form](https://docs.google.com/document/d/1RHVxVnZsPBDDZMDcSvbB8VyNZDl2cn6KpeeSvIu6g_c/edit?usp=sharing) to [jon.brassey@tripdatabase.com](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]%20Data%20Request).
 <br>Please, **specify needed data packages and intended use of the data**.
 
-([Bibtex Citation][citation])
-
 Below we describe contents of each package in detail.
 #### TripClick Logs Dataset
 
@@ -100,6 +98,18 @@ The provided datasets are intended for non-commercial research purposes to promo
 Upon violation of any of these terms, your rights to use the dataset will end automatically.
 The datasets are provided “as is” without warranty. The side granting access to the datasets is not liable for any damages related to use of the dataset.
 
+
+### Citation
+```
+@inproceedings{rekabsaz2021fairnessir,
+    title={TripClick: The Log Files of a Large Health Web Search Engine},
+    author={Rekabsaz, Navid and Lesota, Oleg and Schedl, Markus and Brassey, Jon and Eickhoff, Carsten},
+    booktitle={In Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'21), July 11–15, 2021, Virtual Event, Canada},
+    doi={10.1145/3404835.3463242}
+    year={2021},
+    publisher = {{ACM}}
+}
+```
 
 ### Contact Us
 If you have any questions regarding technical aspects of the dataset, please, contact us:
