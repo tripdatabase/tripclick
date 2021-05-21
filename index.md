@@ -12,7 +12,7 @@ In order to gain access to one or more of these data packages, please fill [this
 [Paper][paper] ([Bibtex Citation][citation])
 
 ### TripClick Logs Dataset
-The logs consist of the user interactions of the Trip search engine collected between January 2013 and October 2020. These consist of approximately **5.2 million click log entries**, appeared in around **1.6 million search sessions**. The provided `logs.tar.gz` consists `allarticles.txt` which provides the titles and URLs of all documents, and the `\<YYYY>-\<MM>-\<DD>.json` files whicj contain log files splitted by days of month like `2017-03-24.json`. In log files, each json-formatted log record is provided in one line.
+The logs consist of the user interactions of the Trip search engine collected between January 2013 and October 2020. Approximately **5.2 million click log entries** from around **1.6 million search sessions** are available. The provided `logs.tar.gz` contains `allarticles.txt` which provides the titles and URLs of all documents, and the `\<YYYY>-\<MM>-\<DD>.json` files contain the log entries split by date, e.g.: `2017-03-24.json`. In the log files, each line represents a single json-formatted log record.
 
 | File Name | Format | Description |
 |---|---|---|
@@ -23,7 +23,7 @@ The logs consist of the user interactions of the Trip search engine collected be
 
 
 ### TripClick IR Benchmark
-The IR evaluation benchmark/collection is created from around **4 million** click log entries which refer to those documents that are indexed in the MEDLINE catalog. The collection has approximately **1.5 million documents**, and around **692,000 queries** splitted into three groups: HEAD, TORSO, and TAIL. The query-to-document relevance signals are created using RAW and Document Click-Through Rate (DCTR) click-through models. See the [paper][paper] for more details.
+The IR evaluation benchmark/collection is created from around **4 million** click log entries which refer to those documents that are indexed in the MEDLINE catalog. The collection has approximately **1.5 million documents**, and around **692,000 queries** split into three groups: HEAD, TORSO, and TAIL. The query-to-document relevance signals are derived using RAW and Document Click-Through Rate (DCTR) click-through models. See the [paper][paper] for more details.
 
 | File Name | Format | Description |
 |---|---|---|
@@ -36,7 +36,7 @@ The IR evaluation benchmark/collection is created from around **4 million** clic
 * [Code used for creating the benchmark from log files](https://github.com/tripdatabase/tripclick/tree/main)
 
 ### TripClick Training Package for Deep Learning Models
-To facilitate the training of deep IR models, we also provide the required training files created from the benchmark. The provided files follow a similar structure to the one of the [MS MARCO](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019) collection.
+To facilitate the training of deep IR models, we also provide the required training files created from the benchmark. The provided files follow the structure similar to the one of the [MS MARCO](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019) collection.
 
 
 | File Name | Format | Description |
@@ -54,7 +54,9 @@ To facilitate the training of deep IR models, we also provide the required train
 The provided datasets are intended for non-commercial research purposes to promote advancement in the field of natural language processing, information retrieval and related areas, and are made available free of charge without extending any license or other intellectual property rights. In particular:
 * Any parts of the datasets cannot be publicly shared or hosted (with exception for aggregated findings and visualizations);
 * The datasets can only be used for non-commercial research purposes;
-Upon violation of any of these terms, your rights to use the dataset will end automatically.
+* The statistical models or any further resources created based on the datasets cannot be shared publicly without the permission of the data owners. These include for instance the weights of deep learning models trained on the provided data.
+
+Upon violation of any of these terms, my rights to use the dataset will end automatically. 
 The datasets are provided “as is” without warranty. The side granting access to the datasets is not liable for any damages related to use of the dataset.
 
 
