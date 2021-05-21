@@ -9,7 +9,7 @@ TripClick is a large-scale dataset of click logs in the health domain, obtained 
 
 In order to gain access to one or more of these data packages, please fill [this form](https://docs.google.com/document/d/1RHVxVnZsPBDDZMDcSvbB8VyNZDl2cn6KpeeSvIu6g_c/edit?usp=sharing) and send it to [jon.brassey@tripdatabase.com](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]%20Data%20Request). In the form, please **specify needed data packages and intended use of the data**.
 
-[Paper][paper] ([Bibtex Citation][citation])
+[TripClick: The Log Files of a Large Health Web Search Engine][paper] ([Bibtex Citation][citation])
 
 ### TripClick Logs Dataset
 The logs consist of the user interactions of the Trip search engine collected between January 2013 and October 2020. Approximately **5.2 million click log entries** from around **1.6 million search sessions** are available. The provided `logs.tar.gz` contains `allarticles.txt` which provides the titles and URLs of all documents, and the `\<YYYY>-\<MM>-\<DD>.json` files contain the log entries split by date, e.g.: `2017-03-24.json`. In the log files, each line represents a single json-formatted log record.
