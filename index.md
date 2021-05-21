@@ -46,9 +46,8 @@ To facilitate the training of deep IR models, we also provide the required train
 | triples.train.tsv | tsv:<br />query, pos. passage, neg. passage | Plain-text training data<br />**(size: 86G)**|
 | tuples.\<*\[head, torso, tail]*>.\<*\[test, val]*>.top200.tsv | tsv:<br />qid, pid, query, passage | test and validation sets, six files:<br />(test, val)\*(head, torso, tail)|
 
-* Total archive size: **29G**
-* `dlfiles.tar.gz`: MD5 checksum `1f256c19466b414e365324d8ef21f09c`
-* `dlfiles_runs_test.tar.gz`: MD5 checksum `2b5e98c683a91e19630636b6f83e3b15`
+* `dlfiles.tar.gz`: size: **29G** MD5 checksum `1f256c19466b414e365324d8ef21f09c`
+* `dlfiles_runs_test.tar.gz`: size **35M** MD5 checksum `2b5e98c683a91e19630636b6f83e3b15`
 
 ## Terms and Conditions
 The provided datasets are intended for non-commercial research purposes to promote advancement in the field of natural language processing, information retrieval and related areas, and are made available free of charge without extending any license or other intellectual property rights. In particular:
