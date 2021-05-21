@@ -36,7 +36,7 @@ The IR evaluation benchmark/collection is created from around **4 million** clic
 * [Code used for creating the benchmark from log files](https://github.com/tripdatabase/tripclick/tree/main)
 
 ### TripClick Training Package for Deep Learning Models
-To facilitate the training of deep IR models, we also provide the required training files created from the benchmark. The provided files follow the structure similar to the one of the [MS MARCO](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019) collection.
+To facilitate the training of deep IR models, we also create and provide the required training files alongside the benchmark. The provided files follow a similar format to the one of the [MS MARCO](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019) collection.
 
 
 | File Name | Format | Description |
