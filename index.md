@@ -32,7 +32,7 @@ The IR evaluation benchmark/collection is created from around **4 million** clic
 | qrels/qrels.raw.\<*\[head, torso, tail]*>.\<*\[train, val]*>.txt | qid, “0”, docid, rating | RAW-based qrels in six files:<br />(train, val)\*(head, torso, tail) |
 | topics/topics.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.txt | TREC format | Topics in nine files:<br />(test, train, val)\*(all, head, torso, tail) |
 
-* `benchmark.tar.gz`: size **930M**, MD5 checksum `6062c9748f5d62cd57228d36f8954da4`
+* `benchmark.tar.gz`: size **930M**, MD5 checksum `6e5d3deeba138750e9a148b538f30a8f`
 * [Code used for creating the benchmark from log files](https://github.com/tripdatabase/tripclick/tree/main)
 
 ### TripClick Training Package for Deep Learning Models
