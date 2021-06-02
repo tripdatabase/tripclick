@@ -58,6 +58,9 @@ The provided datasets are intended for non-commercial research purposes to promo
 Upon violation of any of these terms, my rights to use the dataset will end automatically. 
 The datasets are provided “as is” without warranty. The side granting access to the datasets is not liable for any damages related to use of the dataset.
 
+## Links to Models and Resources
+
+* Pyserini guideline for creating BM25 baselines: [link](https://github.com/castorini/pyserini/blob/master/docs/experiments-tripclick-doc.md)
 
 ## Citation
 ```
