@@ -3,7 +3,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <script src="leaderboard.js"></script>
+  <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" charset="utf8" src="leaderboard.js"></script>
+
 </head>
 <style>
   .table.dataTable  {
@@ -167,9 +169,6 @@ For any question regarding obtaining the data and terms of use please contact [J
 
 <img src="https://www.tripdatabase.com/static/img/trip-logo.png" alt="TripClick logo" width="90"/>
 
-<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jquery.dataTables/1.9.4/jquery.dataTables.min.js"></script>
-<script type="text/javascript" charset="utf8" src="leaderboard.js"></script>
 <script>
   $(function(){
     var otable_leaderboard_head_dctr = $("#leaderboard_head_dctr").dataTable({
