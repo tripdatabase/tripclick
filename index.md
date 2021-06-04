@@ -1,3 +1,7 @@
+---
+mailinglist: tripclick@jku.at
+---
+
 <head>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -14,8 +18,8 @@
 }
 </style>
 
+
 [paper]: https://arxiv.org/abs/2103.07901
-[citation]: #citation
 
 TripClick is a large-scale dataset of click logs in the health domain, obtained from user interactions of the [Trip Database](https://www.tripdatabase.com) health web search engine. The clicklog dataset comprises approximately **5.2 million user interactions**, collected between 2013 and 2020. This dataset is accompanied with an IR evaluation benchmark and the required files to train deep learning IR models.
 * [Access Data](#sccess-data)
@@ -84,7 +88,23 @@ To gain access to one or more of the collection's data packages, please fill [th
 
 
 ### Submission Instruction
-TBD
+We look forward to your submissions with the aim of fostering collaboration in the commuinty and tracking the progress on the benchmarks. To ensure the integrity of the official test results, the relevance information of the test set is not publically available. You can submit your TREC-formatted run files on the validation and test queries of all/either of the benchmarks. Please follow the instructions below for the run files submission.
+
+- Prepare run files for the test and validation queries of all/either of the HEAD, TORSO, and TAIL group in the TREC format. If you want to know about TREC format, [Joao Palotti](https://github.com/joaopalotti/trectools) provides a nice explanation and a set of usefl tools.
+- The name of each run file should follow the format `[team-name]_[head/torso/tail]_[validation/test]_[datetime].run`. 
+  - `team-name` is the name of your team.
+  - `head/torso/tail` is the query set, namely `head`, `torso`, or `tail`.
+  - `datetime` The date and time of submission in `YYYYMMDD` format.
+  - `validation/test` Whether the run file is on validation (`validation`) or test (`test`) queries.
+  - An example: `myteam_head_test_20210512.run`
+- Attach the run file(s) to the email, containing the following points:
+  - To: [{{ page.mailinglist }}](mailto:{{ page.mailinglist }})
+  - Subject: submission of *team-name*
+  - Content
+    - Team: *team-name*
+    - Description: any description about the submission
+    - Paper: URL to the related paper (optional)
+    - Code: URL to the related code (optional)
 
 ## TripClick Data Description
 ### Logs Dataset
@@ -143,7 +163,7 @@ The datasets are provided “as is” without warranty. The side granting access
 
 
 ## Team and Contacts
-For any question regarding obtaining the data and terms of use please contact [Jon Brassey](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]). If you have any question regarding the technical aspects contact [Oleg Lesota](https://www.jku.at/en/institute-of-computational-perception/about-us/people/oleg-lesota/) or [Navid Rekab-saz](https://www.jku.at/en/institute-of-computational-perception/about-us/people/navid-rekab-saz/).
+For any question regarding obtaining the data and terms of use please contact [Jon Brassey](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]). If you have any question regarding the technical aspects drop an email to [{{ page.mailinglist }}](mailto:{{ page.mailinglist }}).
 
 <br>
 <div class="row">
@@ -154,7 +174,7 @@ For any question regarding obtaining the data and terms of use please contact [J
         <a href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/oleg-lesota/"><img src="images/oleg.webp" width="150" height="150"><br><strong>Oleg Lesota</strong><br>Johannes Kepler University Linz</a>
     </div>
     <div class="col-md-4 text-center">
-        <a href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/markus-schedl"><img src="images/markus.webp" width="101" height="150"><br><strong>Markus Schedl</strong><br>Johannes Kepler University Linz</a>
+        <a href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/markus-schedl"><img src="images/markus.jpg" width="87" height="150"><br><strong>Markus Schedl</strong><br>Johannes Kepler University Linz</a>
     </div>
 </div>
 <br>
