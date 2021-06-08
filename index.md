@@ -90,7 +90,7 @@ To gain access to one or more of the collection's data packages, please fill [th
 ### Submission Instruction
 We look forward to your submissions with the aim of fostering collaboration in the commuinty and tracking the progress on the benchmarks. To ensure the integrity of the official test results, the relevance information of the test set is not publically available. You can submit your TREC-formatted run files on the validation and test queries of all/either of the benchmarks. Please follow the instructions below for the run files submission.
 
-- Prepare run files for the test and validation queries of all/either of the HEAD, TORSO, and TAIL group in the TREC format. If you want to know about TREC format, [Joao Palotti](https://github.com/joaopalotti/trectools) provides a nice explanation and a set of usefl tools.
+- Prepare run files for the test and validation queries of all/either of the HEAD, TORSO, and TAIL group in the TREC format. If you want to know about TREC format, [Joao Palotti](https://github.com/joaopalotti/trectools) provides a nice explanation and a set of useful tools.
 - The name of each run file should follow the format `[team-name]_[head/torso/tail]_[validation/test]_[datetime].run`. 
   - `team-name` is the name of your team.
   - `head/torso/tail` is the query set, namely `head`, `torso`, or `tail`.
