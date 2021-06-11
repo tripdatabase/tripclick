@@ -8,7 +8,7 @@ var data_head_dctr = [
 ["2021/06/03","KNRM (baseline)","-",0.196,0.174,0.191,0.173,"",""],
 ["2021/06/03","BM25 (baseline)","-",0.149,0.145,0.140,0.138,"",""],
 ["2021/06/07","TU Wien (Sebastian Hofstätter, Sophia Althammer, Allan Hanbury)","BERT_Cat Re-Ranking (Top-200 BM25) Ensemble (2x PubMedBERT, 1x SciBERT)",
- -,-,0.3036,0.2915,"",""]
+ "-","-",0.3036,0.2915,"",""]
 ];
 
 var data_head_raw = [
