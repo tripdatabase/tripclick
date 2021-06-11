@@ -22,13 +22,19 @@ var data_head_raw = [
 ];
 
 var data_torso_raw = [
-["2021/06/03","TK (baseline)","-",0.281,0.326,0.272,0.321,"",""],
-["2021/06/03","KNRM (baseline)","-",0.242,0.286,0.235,0.283,"",""],
-["2021/06/03","BM25 (baseline)","-",0.224,0.271,0.206,0.262,"",""],
+ ["2021/06/03","TK (baseline)","-",0.281,0.326,0.272,0.321,"",""],
+ ["2021/06/03","KNRM (baseline)","-",0.242,0.286,0.235,0.283,"",""],
+ ["2021/06/03","BM25 (baseline)","-",0.224,0.271,0.206,0.262,"",""],
+
+ ["2021/06/07","BERT_Cat Re-Ranking (Top-200 BM25) Ensemble (2x PubMedBERT, 1x SciBERT)","TU Wien (Sebastian Hofstätter, Sophia Althammer, Allan Hanbury)",
+  "-","-",  0.3695,0.4412,  "",""]
 ];
 
 var data_tail_raw = [
-["2021/06/03","TK (baseline)","-",0.310,0.471,0.295,0.459,"",""],
-["2021/06/03","KNRM (baseline)","-",0.289,0.429,0.272,0.409,"",""],
-["2021/06/03","BM25 (baseline)","-",0.285,0.429,0.267,0.409,"",""],
+ ["2021/06/03","TK (baseline)","-",0.310,0.471,0.295,0.459,"",""],
+ ["2021/06/03","KNRM (baseline)","-",0.289,0.429,0.272,0.409,"",""],
+ ["2021/06/03","BM25 (baseline)","-",0.285,0.429,0.267,0.409,"",""],
+ 
+ ["2021/06/07","BERT_Cat Re-Ranking (Top-200 BM25) Ensemble (2x PubMedBERT, 1x SciBERT)","TU Wien (Sebastian Hofstätter, Sophia Althammer, Allan Hanbury)",
+  "-","-",  0.4197,0.5957,  "",""]
 ];
