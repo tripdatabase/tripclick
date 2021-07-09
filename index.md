@@ -201,7 +201,7 @@ For any question regarding obtaining the data and terms of use please contact [J
     </div>
 </div>
 
-<img src="https://www.tripdatabase.com/static/img/trip-logo.png" alt="TripClick logo" width="90"/>
+<img src="images/trip-logo.png" alt="TripClick logo" width="90"/>
 
 <script>
   $(function(){
