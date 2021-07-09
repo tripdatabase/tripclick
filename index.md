@@ -110,30 +110,47 @@ We look forward to your submissions with the aim of fostering collaboration in t
 ### Logs Dataset
 The logs consist of the user interactions of the Trip search engine collected between January 2013 and October 2020. Approximately **5.2 million click log entries** from around **1.6 million search sessions** are available. The provided `logs.tar.gz` contains `allarticles.txt` which provides the titles and URLs of all documents, and the `\<YYYY>-\<MM>-\<DD>.json` files contain the log entries split by date, e.g.: `2017-03-24.json`. In the log files, each line represents a single json-formatted log record.
 
+* `logs.tar.gz`: size **871M**, MD5 checksum `1d3a548685c2fbef9b2076b0b04ba44f`
+
 | File Name | Format | Description |
 |---|---|---|
 | allarticles.txt | tsv: id	title	url | article collection |
 | \<YYYY>-\<MM>-\<DD>.json | JSON | log records |
 
-* `logs.tar.gz`: size **871M**, MD5 checksum `1d3a548685c2fbef9b2076b0b04ba44f`
-
 
 ### IR Benchmark
-The IR evaluation benchmark/collection is created from around **4 million** click log entries which refer to those documents that are indexed in the MEDLINE catalog. The collection has approximately **1.5 million documents**, and around **692,000 queries** split into three groups: HEAD, TORSO, and TAIL. The query-to-document relevance signals are derived using RAW and Document Click-Through Rate (DCTR) click-through models. See the [paper][paper] for more details.
+The IR evaluation benchmark/collection is created from around **4 million** click log entries which refer to those documents that are indexed in the MEDLINE catalog. The collection has approximately **1.5 million documents**, and around **692,000 queries** split into three groups: HEAD, TORSO, and TAIL. The query-to-document relevance signals are derived using RAW and Document Click-Through Rate (DCTR) click-through models. See the [paper][paper] for more details. The code used to create the benchmark from log files is available [here](https://github.com/tripdatabase/tripclick/tree/main).
+
+
+To make the use of the collection easier, we provide the benchmark in two formats: TREC-style and TSV format. The contents of both formats are exactly the same. 
+
+#### TREC format
+
+* `benchmark.tar.gz`: size **930M**, MD5 checksum `6e5d3deeba138750e9a148b538f30a8f`
 
 | File Name | Format | Description |
 |---|---|---|
 | documents/docs_grp_\<*\[00-15]*>.txt | TREC format | document collection split between 16 files|
-| qrels/qrels.dctr.head.\<*\[train, val]*>.txt | qid, “0”, docid, rating | DCTR-based qrels in two files:<br />(train, val) |
-| qrels/qrels.raw.\<*\[head, torso, tail]*>.\<*\[train, val]*>.txt | qid, “0”, docid, rating | RAW-based qrels in six files:<br />(train, val)\*(head, torso, tail) |
+| qrels/qrels.dctr.head.\<*\[train, val]*>.txt | qid, 0, docid, relevance | DCTR-based qrels in two files:<br />(train, val) |
+| qrels/qrels.raw.\<*\[head, torso, tail]*>.\<*\[train, val]*>.txt | qid, 0, docid, relevance | RAW-based qrels in six files:<br />(train, val)\*(head, torso, tail) |
 | topics/topics.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.txt | TREC format | Topics in nine files:<br />(test, train, val)\*(all, head, torso, tail) |
 
-* `benchmark.tar.gz`: size **930M**, MD5 checksum `6e5d3deeba138750e9a148b538f30a8f`
-* [Code used for creating the benchmark from log files](https://github.com/tripdatabase/tripclick/tree/main)
+#### TSV format
+
+* `benchmark_tsv.tar.gz`: size **930M**, MD5 checksum `dff5f68eed8f9574eac432ea580275f7`
+
+| File Name | Format | Description |
+|---|---|---|
+| documents/docs.tsv | docid \t doctext | documents |
+| qrels/qrels.dctr.head.\<*\[train, val]*>.tsv | qid \t 0 \t docid \t relevance | DCTR-based qrels in two files:<br />(train, val) |
+| qrels/qrels.raw.\<*\[head, torso, tail]*>.\<*\[train, val]*>.tsv | qid \t 0 \t docid \t relevance | RAW-based qrels in six files:<br />(train, val)\*(head, torso, tail) |
+| topics/topics.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.tsv | qid \t qtext | Topics in nine files:<br />(test, train, val)\*(all, head, torso, tail) |
 
 ### Training Package for Deep Learning Models
 To facilitate the training of deep IR models, we also create and provide the required training files alongside the benchmark. The provided files follow a similar format to the one of the [MS MARCO](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019) collection.
 
+* `dlfiles.tar.gz`: size: **29G** MD5 checksum `1f256c19466b414e365324d8ef21f09c`
+* `dlfiles_runs_test.tar.gz`: size **35M** MD5 checksum `2b5e98c683a91e19630636b6f83e3b15`
 
 | File Name | Format | Description |
 |---|---|---|
@@ -141,9 +158,6 @@ To facilitate the training of deep IR models, we also create and provide the req
 | runs_test/run.trip.BM25.\<*\[head, torso, tail]*>.test.txt | TREC-like:<br />qid, “Q0”, docid, rank, score, runstring | Pre-ranking results, three files:<br />(**test**)*(head, torso, tail) |
 | triples.train.tsv | tsv:<br />query, pos. passage, neg. passage | Plain-text training data<br />**(size: 86G)**|
 | tuples.\<*\[head, torso, tail]*>.\<*\[test, val]*>.top200.tsv | tsv:<br />qid, pid, query, passage | test and validation sets, six files:<br />(test, val)\*(head, torso, tail)|
-
-* `dlfiles.tar.gz`: size: **29G** MD5 checksum `1f256c19466b414e365324d8ef21f09c`
-* `dlfiles_runs_test.tar.gz`: size **35M** MD5 checksum `2b5e98c683a91e19630636b6f83e3b15`
 
 
 ### Additional Resources
