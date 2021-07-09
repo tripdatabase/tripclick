@@ -24,7 +24,7 @@ mailinglist: tripclick@jku.at
 TripClick is a large-scale dataset of click logs in the health domain, obtained from user interactions of the [Trip Database](https://www.tripdatabase.com) health web search engine. The clicklog dataset comprises approximately **5.2 million user interactions**, collected between 2013 and 2020. This dataset is accompanied with an IR evaluation benchmark and the required files to train deep learning IR models.
 * [Access Data](#sccess-data)
 * [Leaderboards](#leaderboards)
-* [TripClick Data Description](#tripclick-data-collection)
+* [TripClick Data Description](#tripclick-data-description)
 * [Terms and Conditions](#terms-and-conditions)
 * [Team and Contacts](#team-and-contacts)
 
