@@ -9,7 +9,8 @@ var data_head_dctr = [
  ["2021/06/03","BM25 (baseline)","-",0.149,0.145,0.140,0.138,"",""],
 
  ["2021/06/07","BERT_Cat Re-Ranking (Top-200 BM25) Ensemble (2x PubMedBERT, 1x SciBERT)","TU Wien (Sebastian Hofstätter, Sophia Althammer, Allan Hanbury)",
-  "-","-",  0.3036,0.2915,  "",""]
+  "-","-",  0.3036,0.2915,  "",""],
+ ["2021/09/13","CEDR_BM25_top1000 (capreolus)","mpi-d5","0.2216","0.2154",  "0.2105","0.2119",  "","https://github.com/capreolus-ir/capreolus"]
 ];
 
 var data_head_raw = [
@@ -18,7 +19,8 @@ var data_head_raw = [
  ["2021/06/03","BM25 (baseline)","-",0.209,0.129,0.199,0.128,"",""],
 
  ["2021/06/07","BERT_Cat Re-Ranking (Top-200 BM25) Ensemble (2x PubMedBERT, 1x SciBERT)","TU Wien (Sebastian Hofstätter, Sophia Althammer, Allan Hanbury)",
-  "-","-",  0.4091,0.2381,  "",""]
+  "-","-",  0.4091,0.2381,  "",""],
+ ["2021/09/13","CEDR_BM25_top1000 (capreolus)","mpi-d5","0.2989","0.1802",  "0.2851","0.1754",  "","https://github.com/capreolus-ir/capreolus"]
 ];
 
 var data_torso_raw = [
