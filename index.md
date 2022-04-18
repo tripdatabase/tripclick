@@ -22,11 +22,10 @@ mailinglist: tripclick@jku.at
 [paper]: https://arxiv.org/abs/2103.07901
 
 TripClick is a large-scale dataset of click logs in the health domain, obtained from user interactions of the [Trip Database](https://www.tripdatabase.com) health web search engine. The clicklog dataset comprises approximately **5.2 million user interactions**, collected between 2013 and 2020. This dataset is accompanied with an IR evaluation benchmark and the required files to train deep learning IR models.
-* [Access Data](#sccess-data)
 * [Leaderboards](#leaderboards)
-* [TripClick Data Description](#tripclick-data-description)
-* [Terms and Conditions](#terms-and-conditions)
-* [Team and Contacts](#team-and-contacts)
+* [TripClick dataset](#tripclick-dataset)
+* [Additional resources by collaborators](#additional-resources-by-collaborators)
+* [Team and contact](#team-and-contact)
 
 **Paper:** [TripClick: The Log Files of a Large Health Web Search Engine][paper]
 ```
@@ -39,9 +38,6 @@ TripClick is a large-scale dataset of click logs in the health domain, obtained 
     publisher = {ACM}
 }
 ```
-
-## Access Data
-To gain access to one or more of the collection's data packages, please fill [this form](https://docs.google.com/document/d/1RHVxVnZsPBDDZMDcSvbB8VyNZDl2cn6KpeeSvIu6g_c/edit?usp=sharing) and send it to [jon.brassey@tripdatabase.com](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]%20Data%20Request). In the form, please **specify needed data packages and intended use of the data**.
 
 ## Leaderboards
 
@@ -87,7 +83,7 @@ To gain access to one or more of the collection's data packages, please fill [th
 
 
 
-### Submission Instruction
+### Instruction for submitting to leaderboards
 We look forward to your submissions with the aim of fostering collaboration in the commuinty and tracking the progress on the benchmarks. To ensure the integrity of the official test results, the relevance information of the test set is not publically available. You can submit your TREC-formatted run files on the validation and test queries of all/either of the benchmarks. Please follow the instructions below for the run files submission.
 
 - Prepare run files for the test and validation queries of all/either of the HEAD, TORSO, and TAIL group in the TREC format. If you want to know about TREC format, [Joao Palotti](https://github.com/joaopalotti/trectools) provides a nice explanation and a set of useful tools.
@@ -106,7 +102,11 @@ We look forward to your submissions with the aim of fostering collaboration in t
     - Paper: URL to the related paper (optional)
     - Code: URL to the related code (optional)
 
-## TripClick Data Description
+## TripClick dataset
+
+### How to access the dataset
+To gain access to one or more of the collection's data packages, please fill [this form](https://docs.google.com/document/d/1RHVxVnZsPBDDZMDcSvbB8VyNZDl2cn6KpeeSvIu6g_c/edit?usp=sharing) and send it to [jon.brassey@tripdatabase.com](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]%20Data%20Request). In the form, please **specify needed data packages and intended use of the data**.
+
 ### Logs Dataset
 The logs consist of the user interactions of the Trip search engine collected between January 2013 and October 2020. Approximately **5.2 million click log entries** from around **1.6 million search sessions** are available. The provided `logs.tar.gz` contains `allarticles.txt` which provides the titles and URLs of all documents, and the `\<YYYY>-\<MM>-\<DD>.json` files contain the log entries split by date, e.g.: `2017-03-24.json`. In the log files, each line represents a single json-formatted log record.
 
@@ -146,7 +146,7 @@ To make the use of the collection easier, we provide the benchmark in two format
 | qrels/qrels.raw.\<*\[head, torso, tail]*>.\<*\[train, val]*>.tsv | qid \t 0 \t docid \t relevance | RAW-based qrels in six files:<br />(train, val)\*(head, torso, tail) |
 | topics/topics.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.tsv | qid \t qtext | Topics in nine files:<br />(test, train, val)\*(all, head, torso, tail) |
 
-### Training Package for Deep Learning Models
+### Training package for deep learning models
 To facilitate the training of deep IR models, we also create and provide the required training files alongside the benchmark. The provided files follow a similar format to the one of the [MS MARCO](https://microsoft.github.io/msmarco/TREC-Deep-Learning-2019) collection.
 
 * `dlfiles.tar.gz`: size: **29G** MD5 checksum `1f256c19466b414e365324d8ef21f09c`
@@ -160,23 +160,12 @@ To facilitate the training of deep IR models, we also create and provide the req
 | tuples.\<*\[head, torso, tail]*>.\<*\[test, val]*>.top200.tsv | tsv:<br />qid, pid, query, passage | test and validation sets, six files:<br />(test, val)\*(head, torso, tail)|
 
 
-### Additional Resources
+## Additional resources by collaborators
 
 * Pyserini guideline for creating BM25 baselines: [link](https://github.com/castorini/pyserini/blob/master/docs/experiments-tripclick-doc.md)
+* A new set of training triples (`triples.train.tsv`) provided by Hofst{\"a}tter et al.: [github](https://github.com/sebastian-hofstaetter/tripclick), [Training triples](https://huggingface.co/datasets/sebastian-hofstaetter/tripclick-training)
 
-
-
-## Terms and Conditions
-The provided datasets are intended for non-commercial research purposes to promote advancement in the field of natural language processing, information retrieval and related areas, and are made available free of charge without extending any license or other intellectual property rights. In particular:
-* Any parts of the datasets cannot be publicly shared or hosted (with exception for aggregated findings and visualizations);
-* The datasets can only be used for non-commercial research purposes;
-* The statistical models or any further resources created based on the datasets cannot be shared publicly without the permission of the data owners. These include for instance the weights of deep learning models trained on the provided data.
-
-Upon violation of any of these terms, my rights to use the dataset will end automatically. 
-The datasets are provided “as is” without warranty. The side granting access to the datasets is not liable for any damages related to use of the dataset.
-
-
-## Team and Contacts
+## Team and Contact
 For any question regarding obtaining the data and terms of use please contact [Jon Brassey](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]). If you have any question regarding the technical aspects drop an email to [{{ page.mailinglist }}](mailto:{{ page.mailinglist }}).
 
 <br>
@@ -200,6 +189,16 @@ For any question regarding obtaining the data and terms of use please contact [J
         <a href="https://brown.edu/Research/AI/people/carsten.html"><img src="images/carsten.png" width="150" height="150"><br><strong>Carsten Eickhoff</strong><br>Brown University</a>
     </div>
 </div>
+
+### Terms and conditions
+The provided datasets are intended for non-commercial research purposes to promote advancement in the field of natural language processing, information retrieval and related areas, and are made available free of charge without extending any license or other intellectual property rights. In particular:
+* Any parts of the datasets cannot be publicly shared or hosted (with exception for aggregated findings and visualizations);
+* The datasets can only be used for non-commercial research purposes;
+* The statistical models or any further resources created based on the datasets cannot be shared publicly without the permission of the data owners. These include for instance the weights of deep learning models trained on the provided data.
+
+Upon violation of any of these terms, my rights to use the dataset will end automatically. 
+The datasets are provided “as is” without warranty. The side granting access to the datasets is not liable for any damages related to use of the dataset.
+
 
 <img src="images/trip-logo.png" alt="TripClick logo" width="90"/>
 
