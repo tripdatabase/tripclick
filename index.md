@@ -22,10 +22,6 @@ mailinglist: tripclick@jku.at
 [paper]: https://arxiv.org/abs/2103.07901
 
 TripClick is a large-scale dataset of click logs in the health domain, obtained from user interactions of the [Trip Database](https://www.tripdatabase.com) health web search engine. The clicklog dataset comprises approximately **5.2 million user interactions**, collected between 2013 and 2020. This dataset is accompanied with an IR evaluation benchmark and the required files to train deep learning IR models.
-* [Leaderboards](#leaderboards)
-* [TripClick dataset](#tripclick-dataset)
-* [Additional resources by collaborators](#additional-resources-by-collaborators)
-* [Team and contact](#team-and-contact)
 
 **Paper:** [TripClick: The Log Files of a Large Health Web Search Engine][paper]
 ```
@@ -39,6 +35,11 @@ TripClick is a large-scale dataset of click logs in the health domain, obtained 
     publisher = {{ACM}}
 }
 ```
+
+* [Leaderboards](#leaderboards)
+* [TripClick dataset](#tripclick-dataset)
+* [Additional resources by collaborators](#additional-resources-by-collaborators)
+* [Team and contact](#team-and-contact)
 
 ## Leaderboards
 
@@ -119,7 +120,7 @@ The logs consist of the user interactions of the Trip search engine collected be
 | \<YYYY>-\<MM>-\<DD>.json | JSON | log records |
 
 
-### IR Benchmark
+### Information Retrieval Collection
 The IR evaluation benchmark/collection is created from around **4 million** click log entries which refer to those documents that are indexed in the MEDLINE catalog. The collection has approximately **1.5 million documents**, and around **692,000 queries** split into three groups: HEAD, TORSO, and TAIL. The query-to-document relevance signals are derived using RAW and Document Click-Through Rate (DCTR) click-through models. See the [paper][paper] for more details. The code used to create the benchmark from log files is available [here](https://github.com/tripdatabase/tripclick/tree/main).
 
 
