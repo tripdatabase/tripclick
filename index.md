@@ -164,8 +164,8 @@ To facilitate the training of deep IR models, we also create and provide the req
 
 ## Additional resources by collaborators
 
-* Pyserini guideline for creating BM25 baselines: [link](https://github.com/castorini/pyserini/blob/master/docs/experiments-tripclick-doc.md)
-* A new set of training triples (`triples.train.tsv`) provided by Hofstätter et al.: [github](https://github.com/sebastian-hofstaetter/tripclick), training triples](https://huggingface.co/datasets/sebastian-hofstaetter/tripclick-training)
+* Pyserini guideline for creating BM25 baselines: <a href="https://github.com/castorini/pyserini/blob/master/docs/experiments-tripclick-doc.md" target="_blank">link</a>
+* A new set of training triples (`triples.train.tsv`) provided by Hofstätter et al.: <a href="https://github.com/sebastian-hofstaetter/tripclick" target="_blank">github</a>, <a href="https://huggingface.co/datasets/sebastian-hofstaetter/tripclick-training" target="_blank">training triples</a>
 
 ## Team and Contact
 For any question regarding obtaining the data and terms of use please contact [Jon Brassey](mailto:jon.brassey@tripdatabase.com?subject=[TripClick]). If you have any question regarding the technical aspects drop an email to [{{ page.mailinglist }}](mailto:{{ page.mailinglist }}).
