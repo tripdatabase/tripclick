@@ -173,22 +173,22 @@ For any question regarding obtaining the data and terms of use please contact [J
 <br>
 <div class="row">
     <div class="col-md-4 text-center">
-        <a href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/navid-rekab-saz/"><img src="images/navid.png" width="150" height="150"><br><strong>Navid Rekab-saz</strong><br>Johannes Kepler University Linz</a>
+        <a target="_blank" href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/navid-rekab-saz/"><img src="images/navid.png" width="150" height="150"><br><strong>Navid Rekab-saz</strong><br>Johannes Kepler University Linz</a>
     </div>
     <div class="col-md-4 text-center">
-        <a href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/oleg-lesota/"><img src="images/oleg.webp" width="150" height="150"><br><strong>Oleg Lesota</strong><br>Johannes Kepler University Linz</a>
+        <a target="_blank" href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/oleg-lesota/"><img src="images/oleg.webp" width="150" height="150"><br><strong>Oleg Lesota</strong><br>Johannes Kepler University Linz</a>
     </div>
     <div class="col-md-4 text-center">
-        <a href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/markus-schedl"><img src="images/markus.jpg" width="87" height="150"><br><strong>Markus Schedl</strong><br>Johannes Kepler University Linz</a>
+        <a target="_blank" href="https://www.jku.at/en/institute-of-computational-perception/about-us/people/markus-schedl"><img src="images/markus.jpg" width="87" height="150"><br><strong>Markus Schedl</strong><br>Johannes Kepler University Linz</a>
     </div>
 </div>
 <br>
 <div class="row">
     <div class="col-md-6 text-center">
-        <a href="mailto:jon.brassey@tripdatabase.com?subject=[TripClick]"><img src="images/jon.webp" width="150" height="150"><br><strong>Jon Brassey</strong><br>Trip Database</a>
+        <a target="_blank" href="mailto:jon.brassey@tripdatabase.com?subject=[TripClick]"><img src="images/jon.webp" width="150" height="150"><br><strong>Jon Brassey</strong><br>Trip Database</a>
     </div>
     <div class="col-md-6 text-center">
-        <a href="https://brown.edu/Research/AI/people/carsten.html"><img src="images/carsten.png" width="150" height="150"><br><strong>Carsten Eickhoff</strong><br>Brown University</a>
+        <a target="_blank" href="https://brown.edu/Research/AI/people/carsten.html"><img src="images/carsten.png" width="150" height="150"><br><strong>Carsten Eickhoff</strong><br>Brown University</a>
     </div>
 </div>
 
