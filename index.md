@@ -32,15 +32,16 @@ TripClick is a large-scale dataset of click logs in the health domain, obtained 
     doi={10.1145/3404835.3463242},
     pages={2507--2513},
     year={2021},
-    publisher = {{ACM}}
+    publisher={{ACM}}
 }
 ```
 
-* [Leaderboards](#leaderboards)
+<!--* [Leaderboards](#leaderboards)-->
 * [TripClick dataset](#tripclick-dataset)
 * [Additional resources by collaborators](#additional-resources-by-collaborators)
 * [Team and contact](#team-and-contact)
 
+<!--
 ## Leaderboards
 
 ### HEAD Queries - DCTR
@@ -103,6 +104,7 @@ We look forward to your submissions with the aim of fostering collaboration in t
     - Description: any description about the submission
     - Paper: URL to the related paper (optional)
     - Code: URL to the related code (optional)
+-->
 
 ## TripClick dataset
 
@@ -134,7 +136,7 @@ To make the use of the collection easier, we provide the benchmark in two format
 |---|---|---|
 | documents/docs_grp_\<*\[00-15]*>.txt | TREC format | document collection split between 16 files|
 | qrels/qrels.dctr.head.\<*\[train, val]*>.txt | qid, 0, docid, relevance | DCTR-based qrels in two files:<br />(train, val) |
-| qrels/qrels.raw.\<*\[head, torso, tail]*>.\<*\[train, val]*>.txt | qid, 0, docid, relevance | RAW-based qrels in six files:<br />(train, val)\*(head, torso, tail) |
+| qrels/qrels.raw.\<*\[head, torso, tail]*>.\<*\[train, val, test]*>.txt | qid, 0, docid, relevance | RAW-based qrels in six files:<br />(train, val, test)\*(head, torso, tail) |
 | topics/topics.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.txt | TREC format | Topics in nine files:<br />(test, train, val)\*(all, head, torso, tail) |
 
 #### TSV format
@@ -145,7 +147,7 @@ To make the use of the collection easier, we provide the benchmark in two format
 |---|---|---|
 | documents/docs.tsv | docid \t doctext | documents |
 | qrels/qrels.dctr.head.\<*\[train, val]*>.tsv | qid \t 0 \t docid \t relevance | DCTR-based qrels in two files:<br />(train, val) |
-| qrels/qrels.raw.\<*\[head, torso, tail]*>.\<*\[train, val]*>.tsv | qid \t 0 \t docid \t relevance | RAW-based qrels in six files:<br />(train, val)\*(head, torso, tail) |
+| qrels/qrels.raw.\<*\[head, torso, tail]*>.\<*\[train, val, test]*>.tsv | qid \t 0 \t docid \t relevance | RAW-based qrels in six files:<br />(train, val, test)\*(head, torso, tail) |
 | topics/topics.\<*\[head, torso, tail]*>.\<*\[test, train, val]*>.tsv | qid \t qtext | Topics in nine files:<br />(test, train, val)\*(all, head, torso, tail) |
 
 ### Training package for deep learning models
