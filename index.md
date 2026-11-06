@@ -1,3 +1,3 @@
 ---
-redirect_to: https://huggingface.co/datasets/Navid/tripclick-benchmark
+redirect_to: https://huggingface.co/datasets/Navid/tripclick
 ---
